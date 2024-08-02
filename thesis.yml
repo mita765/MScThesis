@@ -1,4 +1,4 @@
-name: thesis-test
+name: thesis
 channels:
   - defaults
 dependencies:
