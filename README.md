@@ -10,7 +10,7 @@
 ### Linux Users
 - Make sure you have Jupyter notebooks working (including your base kernel)
 - Open your terminal in .../MScThesis
-- Run the following ssnippet:
+- Run the following snippet:
   ```
   conda init && conda env create -f thesis.yml && python -m ipykernel install --user --name=thesis
   ```
