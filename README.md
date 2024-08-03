@@ -1,6 +1,12 @@
 # IMPORTANT --- If you want to run these notebooks (rather than look at the embedded outputs):
 ### Windows Users
-Run `create_env_kernel.bat`
+- Make sure you have Jupyter notebooks working (including your base kernel)
+- Open your terminal in .../MScThesis
+- Run the following code:
+  ```
+  cmd /k "conda init && conda env create -f thesis.yml && python -m ipykernel install --user --name=thesis && exit"
+  ```
+  
 ### Linux Users
 Open your terminal in .../MScThesis and run the following script in terminal:
 ```
