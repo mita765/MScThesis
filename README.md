@@ -17,5 +17,5 @@
   
 This will install all the necessary libraries used in Thesis-TR and Thesis-ML.
 
-## After running `create_env_kernel`:
+## After running the script:
 Open the notebook you would like to run and select the `thesis` Jupyter kernel. Then, simply run all.
